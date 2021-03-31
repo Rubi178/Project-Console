@@ -1,34 +1,39 @@
 <html>
 
 <head>
-<title>Java Script</title>
-</head>
+    <title>Java Script</title>
+    </head>
+    
+    <body>
+        <h1>Open Console</h1>
+    <script>
+        console.log("Console Screen");
+        var name="Rocky";
+        console.log(name);
 
-<body>
-    <h1>Project on Console</h1>
-<p>Write about visual studio and how to set it up</p>
-<p>Write about console screen, why it is use, and how to open console screen how to print anything</p>
+        var last_name="Nguyen";
+        console.log(last_name);
 
-<script>
-    var first_name="Rubi";
-    console.log(first_name);
+        var full_name=name.concat(last_name);
+        console.log(full_name);
 
-    var last_name="Nguyen";
-    console.log(last_name);
+        var length_of_full_name=full_name.length;
+        console.log(length_of_full_name);
 
-    var full_name=first_name.concat(last_name);
-    console.log(full_name);
+        var sentence="I am Rubi Nguyen";
+        console.log(sentence);
 
-    var length_of_full_name=full_name.length;
-    console.log(length_of_full_name);
+        var replace_sentence=sentence.replace("Rubi","Rebecca");
+        console.log(replace_sentence);
 
-    var addition="+";
-    console.log("+");
+        var captial_name="ROCKY";
+        var lowercase_name=captial_name.toLowerCase();
+        console.log(lowercase_name);
 
-    var multiplication="x";
-    console.log("x");
-</script>
-</body>
-
-
+        var lowercase_name="rocky";
+        var captial_name1=lowercase_name.toUpperCase();
+        console.log(captial_name1);
+            </script>
+    </body>
+    
 </html>
